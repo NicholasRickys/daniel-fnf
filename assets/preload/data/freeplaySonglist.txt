@@ -1,0 +1,8 @@
+summer-sunset:poyo:1:[255,181,181]
+energizer:poyo:1:[255,181,181]
+epic:poyo:1:[255,181,181]
+challenger:poyo:1:[255,181,181]
+bars:poyo:1:[255,181,181]
+synergy:poyo:1:[255,181,181]
+scammed:poyo:1:[255,181,181]
+mistakes:poyo:1:[255,181,181]
