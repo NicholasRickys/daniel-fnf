@@ -129,7 +129,7 @@ class PauseSubState extends MusicBeatSubstate {
 		var bullShit:Int = 0;
 
 		for (item in grpMenuShit.members) {
-			if (item == null) return;
+			if (item == null) continue;
 			item.targetY = bullShit - curSelected;
 			bullShit++;
 
