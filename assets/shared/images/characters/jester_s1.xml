@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jester_s1.png">
+	<!-- Created with Adobe Animate version 19.2.0.405 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jester_bopper0000" x="0" y="0" width="362" height="293"/>
+	<SubTexture name="Jester_bopper0001" x="0" y="0" width="362" height="293"/>
+	<SubTexture name="Jester_bopper0002" x="362" y="0" width="359" height="293" frameX="-3" frameY="0" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0003" x="362" y="0" width="359" height="293" frameX="-3" frameY="0" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0004" x="721" y="0" width="353" height="293" frameX="-9" frameY="0" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0005" x="721" y="0" width="353" height="293" frameX="-9" frameY="0" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0006" x="1074" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0007" x="1074" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0008" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0009" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0010" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0011" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0012" x="0" y="293" width="351" height="286" frameX="-11" frameY="-7" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0013" x="0" y="293" width="351" height="286" frameX="-11" frameY="-7" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0014" x="351" y="293" width="350" height="286" frameX="-12" frameY="-7" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0015" x="351" y="293" width="350" height="286" frameX="-12" frameY="-7" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0016" x="701" y="293" width="350" height="289" frameX="-12" frameY="-4" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0017" x="701" y="293" width="350" height="289" frameX="-12" frameY="-4" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0018" x="1051" y="293" width="352" height="291" frameX="-10" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0019" x="1051" y="293" width="352" height="291" frameX="-10" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0020" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0021" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0022" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_bopper0023" x="1427" y="0" width="353" height="291" frameX="-9" frameY="-2" frameWidth="362" frameHeight="293"/>
+	<SubTexture name="Jester_down0000" x="1403" y="293" width="418" height="364"/>
+	<SubTexture name="Jester_down0001" x="1403" y="293" width="418" height="364"/>
+	<SubTexture name="Jester_down0002" x="0" y="657" width="417" height="355" frameX="-1" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0003" x="0" y="657" width="417" height="355" frameX="-1" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0004" x="417" y="657" width="406" height="346" frameX="-12" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0005" x="417" y="657" width="406" height="346" frameX="-12" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0006" x="823" y="657" width="404" height="342" frameX="-14" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0007" x="823" y="657" width="404" height="342" frameX="-14" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0008" x="823" y="657" width="404" height="342" frameX="-14" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0009" x="823" y="657" width="404" height="342" frameX="-14" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0010" x="1227" y="657" width="399" height="340" frameX="-19" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0011" x="1227" y="657" width="399" height="340" frameX="-19" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0012" x="1626" y="657" width="389" height="325" frameX="-29" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_down0013" x="1626" y="657" width="389" height="325" frameX="-29" frameY="0" frameWidth="418" frameHeight="364"/>
+	<SubTexture name="Jester_left0000" x="0" y="1012" width="570" height="401" frameX="0" frameY="-1" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0001" x="0" y="1012" width="570" height="401" frameX="0" frameY="-1" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0002" x="570" y="1012" width="569" height="399" frameX="-1" frameY="0" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0003" x="570" y="1012" width="569" height="399" frameX="-1" frameY="0" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0004" x="1139" y="1012" width="565" height="387" frameX="-5" frameY="-5" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0005" x="1139" y="1012" width="565" height="387" frameX="-5" frameY="-5" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0006" x="0" y="1413" width="565" height="384" frameX="-5" frameY="-8" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0007" x="0" y="1413" width="565" height="384" frameX="-5" frameY="-8" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0008" x="0" y="1413" width="565" height="384" frameX="-5" frameY="-8" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0009" x="0" y="1413" width="565" height="384" frameX="-5" frameY="-8" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0010" x="565" y="1413" width="563" height="382" frameX="-7" frameY="-10" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0011" x="565" y="1413" width="563" height="382" frameX="-7" frameY="-10" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0012" x="1128" y="1413" width="549" height="372" frameX="-21" frameY="-20" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_left0013" x="1128" y="1413" width="549" height="372" frameX="-21" frameY="-20" frameWidth="570" frameHeight="402"/>
+	<SubTexture name="Jester_right0000" x="1677" y="1413" width="338" height="286"/>
+	<SubTexture name="Jester_right0001" x="1677" y="1413" width="338" height="286"/>
+	<SubTexture name="Jester_right0002" x="0" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0003" x="0" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0004" x="338" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0005" x="338" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0006" x="676" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0007" x="676" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0008" x="676" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0009" x="676" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0010" x="1014" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0011" x="1014" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0012" x="1352" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_right0013" x="1352" y="1797" width="338" height="286"/>
+	<SubTexture name="Jester_up0000" x="1690" y="1797" width="338" height="366" frameX="-3" frameY="0" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0001" x="1690" y="1797" width="338" height="366" frameX="-3" frameY="0" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0002" x="0" y="2163" width="338" height="364" frameX="-3" frameY="-2" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0003" x="0" y="2163" width="338" height="364" frameX="-3" frameY="-2" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0004" x="338" y="2163" width="338" height="360" frameX="-3" frameY="-6" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0005" x="338" y="2163" width="338" height="360" frameX="-3" frameY="-6" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0006" x="676" y="2163" width="338" height="361" frameX="-3" frameY="-5" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0007" x="676" y="2163" width="338" height="361" frameX="-3" frameY="-5" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0008" x="676" y="2163" width="338" height="361" frameX="-3" frameY="-5" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0009" x="676" y="2163" width="338" height="361" frameX="-3" frameY="-5" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0010" x="1014" y="2163" width="338" height="359" frameX="-3" frameY="-7" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0011" x="1014" y="2163" width="338" height="359" frameX="-3" frameY="-7" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0012" x="1352" y="2163" width="341" height="351" frameX="0" frameY="-15" frameWidth="341" frameHeight="366"/>
+	<SubTexture name="Jester_up0013" x="1352" y="2163" width="341" height="351" frameX="0" frameY="-15" frameWidth="341" frameHeight="366"/>
+</TextureAtlas>

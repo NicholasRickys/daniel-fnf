@@ -5,7 +5,8 @@ import flixel.util.FlxColor;
 
 using StringTools;
 
-class Character extends FlxSprite {
+class Character extends FlxSprite
+{
 	public var animOffsets:Map<String, Array<Dynamic>>;
 	public var debugMode:Bool = false;
 
@@ -27,7 +28,8 @@ class Character extends FlxSprite {
 	// for players bein on right side when they really a leftie
 	public var nativelyPlayable:Bool = false;
 
-	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false) {
+	public function new(x:Float, y:Float, ?character:String = "bf", ?isPlayer:Bool = false)
+	{
 		super(x, y);
 
 		animOffsets = new Map<String, Array<Dynamic>>();
@@ -35,7 +37,39 @@ class Character extends FlxSprite {
 		this.isPlayer = isPlayer;
 		antialiasing = true;
 
-		switch (curCharacter) {
+		switch (curCharacter)
+		{
+			case 'daniel':
+				frames = Paths.getSparrowAtlas('characters/Daniel-main', 'shared');
+
+				animation.addByPrefix('idle', 'idle', 24);
+				animation.addByPrefix('singLEFT', 'left', 24);
+				animation.addByPrefix('singRIGHT', 'right', 24);
+				animation.addByPrefix('singUP', 'up', 24);
+				animation.addByPrefix('singDOWN', 'down', 24);
+
+				addOffset('idle');
+				addOffset('singLEFT', -90, 0);
+				addOffset('singDOWN', 20, -10);
+				addOffset('singUP', 20, 0);
+				addOffset('singRIGHT', -90, 0);
+				nativelyPlayable = true;
+				flipX = true;
+			case 'jester':
+				frames = Paths.getSparrowAtlas('characters/jester_s1', 'shared');
+
+				animation.addByPrefix('idle', 'Jester_bopper');
+				animation.addByPrefix('singLEFT', 'Jester_left');
+				animation.addByPrefix('singDOWN', 'Jester_down');
+				animation.addByPrefix('singUP', 'Jester_up');
+				animation.addByPrefix('singRIGHT', 'Jester_right');
+
+				addOffset('idle');
+				addOffset('singLEFT', 208, 99);
+				addOffset('singDOWN', 56, -7);
+				addOffset('singUP', -21, 73);
+				addOffset('singRIGHT', -24, -7);
+				flipX = false;
 			case 'gf':
 				frames = Paths.getSparrowAtlas('characters/GF_assets', 'shared');
 
@@ -71,10 +105,13 @@ class Character extends FlxSprite {
 				frames = Paths.getSparrowAtlas('characters/PoyoSprites', 'poyo');
 
 				animation.addByPrefix('idle', 'poyo_boppin', 24, false);
-				if (!isPlayer) {
+				if (!isPlayer)
+				{
 					animation.addByPrefix('singLEFT', 'poyo_left', 24, false);
 					animation.addByPrefix('singRIGHT', 'poyo_right', 24, false);
-				} else {
+				}
+				else
+				{
 					animation.addByPrefix('singRIGHT', 'poyo_left', 24, false);
 					animation.addByPrefix('singLEFT', 'poyo_right', 24, false);
 				}
@@ -82,10 +119,13 @@ class Character extends FlxSprite {
 				animation.addByPrefix('singUP', 'poyo_up', 24, false);
 
 				addOffset('idle');
-				if (!isPlayer) {
+				if (!isPlayer)
+				{
 					addOffset("singLEFT", 115, -10);
 					addOffset("singRIGHT", -150, 18);
-				} else {
+				}
+				else
+				{
 					addOffset("singRIGHT", 115, -10);
 					addOffset("singLEFT", -150, 18);
 				}
@@ -104,12 +144,15 @@ class Character extends FlxSprite {
 
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
-				if (isPlayer) {
+				if (isPlayer)
+				{
 					animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
 					animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
 					animation.addByPrefix('singLEFT-miss', 'BF NOTE LEFT MISS', 24, false);
 					animation.addByPrefix('singRIGHT-miss', 'BF NOTE RIGHT MISS', 24, false);
-				} else {
+				}
+				else
+				{
 					animation.addByPrefix('singRIGHT', 'BF NOTE LEFT0', 24, false);
 					animation.addByPrefix('singLEFT', 'BF NOTE RIGHT0', 24, false);
 					animation.addByPrefix('singRIGHT-miss', 'BF NOTE LEFT MISS', 24, false);
@@ -128,12 +171,15 @@ class Character extends FlxSprite {
 
 				addOffset('idle', -5);
 				addOffset("singUP", -29, 27);
-				if (isPlayer) {
+				if (isPlayer)
+				{
 					addOffset("singRIGHT", -38, -7);
 					addOffset("singLEFT", 12, -6);
 					addOffset("singRIGHT-miss", -30, 21);
 					addOffset("singLEFT-miss", 12, 24);
-				} else {
+				}
+				else
+				{
 					addOffset("singLEFT", -38, -7);
 					addOffset("singRIGHT", 12, -6);
 					addOffset("singLEFT-miss", -30, 21);
@@ -161,10 +207,13 @@ class Character extends FlxSprite {
 					frames = Paths.getSparrowAtlas('characters/PoyoSprites', 'poyo');
 
 					animation.addByPrefix('idle', 'poyo_boppin', 24, false);
-					if (!isPlayer) {
+					if (!isPlayer)
+					{
 						animation.addByPrefix('singLEFT', 'poyo_left', 24, false);
 						animation.addByPrefix('singRIGHT', 'poyo_right', 24, false);
-					} else {
+					}
+					else
+					{
 						animation.addByPrefix('singRIGHT', 'poyo_left', 24, false);
 						animation.addByPrefix('singLEFT', 'poyo_right', 24, false);
 					}
@@ -172,10 +221,13 @@ class Character extends FlxSprite {
 					animation.addByPrefix('singUP', 'poyo_up', 24, false);
 
 					addOffset('idle');
-					if (!isPlayer) {
+					if (!isPlayer)
+					{
 						addOffset("singLEFT", 115, -10);
 						addOffset("singRIGHT", -150, 18);
-					} else {
+					}
+					else
+					{
 						addOffset("singRIGHT", 115, -10);
 						addOffset("singLEFT", -150, 18);
 					}
@@ -189,19 +241,22 @@ class Character extends FlxSprite {
 					camPos = [200, -150];
 				}
 				else
-				{			
+				{
 					camZoom = 1;
 					nativelyPlayable = true;
 					frames = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
 
 					animation.addByPrefix('idle', 'BF idle dance', 24, false);
 					animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
-					if (isPlayer) {
+					if (isPlayer)
+					{
 						animation.addByPrefix('singLEFT', 'BF NOTE LEFT0', 24, false);
 						animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT0', 24, false);
 						animation.addByPrefix('singLEFT-miss', 'BF NOTE LEFT MISS', 24, false);
 						animation.addByPrefix('singRIGHT-miss', 'BF NOTE RIGHT MISS', 24, false);
-					} else {
+					}
+					else
+					{
 						animation.addByPrefix('singRIGHT', 'BF NOTE LEFT0', 24, false);
 						animation.addByPrefix('singLEFT', 'BF NOTE RIGHT0', 24, false);
 						animation.addByPrefix('singRIGHT-miss', 'BF NOTE LEFT MISS', 24, false);
@@ -220,12 +275,15 @@ class Character extends FlxSprite {
 
 					addOffset('idle', -5);
 					addOffset("singUP", -29, 27);
-					if (isPlayer) {
+					if (isPlayer)
+					{
 						addOffset("singRIGHT", -38, -7);
 						addOffset("singLEFT", 12, -6);
 						addOffset("singRIGHT-miss", -30, 21);
 						addOffset("singLEFT-miss", 12, 24);
-					} else {
+					}
+					else
+					{
 						addOffset("singLEFT", -38, -7);
 						addOffset("singRIGHT", 12, -6);
 						addOffset("singLEFT-miss", -30, 21);
@@ -254,8 +312,10 @@ class Character extends FlxSprite {
 			flipX = !flipX;
 	}
 
-	override function update(elapsed:Float) {
-		if (animation.curAnim != null) {
+	override function update(elapsed:Float)
+	{
+		if (animation.curAnim != null)
+		{
 			holdTimer += elapsed;
 		}
 
@@ -264,10 +324,13 @@ class Character extends FlxSprite {
 
 	private var danced:Bool = false;
 
-	public function dance() {
-		switch (curCharacter) {
+	public function dance()
+	{
+		switch (curCharacter)
+		{
 			case 'gf':
-				if (!animation.curAnim.name.startsWith('hair')) {
+				if (!animation.curAnim.name.startsWith('hair'))
+				{
 					danced = !danced;
 
 					if (danced)
@@ -280,32 +343,41 @@ class Character extends FlxSprite {
 		}
 	}
 
-	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void {
+	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
+	{
 		animation.play(AnimName, Force, Reversed, Frame);
 		var offsetter:Int = 1;
 		if ((nativelyPlayable && !isPlayer) || (!nativelyPlayable && isPlayer))
 			offsetter = -1;
 
 		var daOffset = animOffsets.get(AnimName);
-		if (animOffsets.exists(AnimName)) {
+		if (animOffsets.exists(AnimName))
+		{
 			offset.set(daOffset[0] * offsetter, daOffset[1]);
-		} else
+		}
+		else
 			offset.set(0, 0);
 
-		if (curCharacter == 'gf') {
-			if (AnimName == 'singLEFT') {
+		if (curCharacter == 'gf')
+		{
+			if (AnimName == 'singLEFT')
+			{
 				danced = true;
-			} else if (AnimName == 'singRIGHT') {
+			}
+			else if (AnimName == 'singRIGHT')
+			{
 				danced = false;
 			}
 
-			if (AnimName == 'singUP' || AnimName == 'singDOWN') {
+			if (AnimName == 'singUP' || AnimName == 'singDOWN')
+			{
 				danced = !danced;
 			}
 		}
 	}
 
-	public function addOffset(name:String, x:Float = 0, y:Float = 0) {
+	public function addOffset(name:String, x:Float = 0, y:Float = 0)
+	{
 		animOffsets[name] = [x, y];
 	}
 }
